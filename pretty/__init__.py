@@ -24,7 +24,7 @@ def info(msg):
     logger.info(msg)
 
 def debug(msg):
-    debug.info(msg)
+    logger.debug(msg)
 
 def pretty_debug(func):
     def wrap(*args):
