@@ -36,8 +36,8 @@ def timeit(func):
         f = func(*args)
         end = datetime.datetime.now()
         total = end - start
-        total = total.microseconds
-        eprint(f'  {func.__name__} took: {total} microseconds')
+        
+        eprint(f'  {func.__name__} took: {total}')
         return f
     return wrap
 
