@@ -2,7 +2,6 @@
 from __future__ import print_function
 import logging
 import inspect
-import pandas as pd
 import datetime
 import os
 import sys
