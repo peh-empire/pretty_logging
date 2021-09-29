@@ -10,7 +10,7 @@ setup(
     license='unlicensed',
     packages=['pretty_logging'],
     scripts=[],
-    install_requires=['pandas'],
+    install_requires=[],
     zip_safe=False,
     include_package_data=True
 )
